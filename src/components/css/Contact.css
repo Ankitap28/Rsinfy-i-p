@@ -1,0 +1,71 @@
+ .contact-heading{
+    text-align: center;
+    margin-top: 1.5rem;
+    font-weight: bold;
+    text-decoration: underline;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+} 
+
+.container-fluid {
+    /* background-color: #010449 */
+    background-color: #2a2e38;
+}
+
+
+.msg-form {
+    background-color: white;
+    padding: 20px
+}
+
+.pad-icon {
+    padding-top: 50px;
+    padding-left: 20px;
+    cursor: pointer;
+}
+
+.pad-icon a {
+    text-decoration: none;
+    margin-right: 40px
+}
+
+.input-group input:focus {
+    border: 1px solid blue
+}
+
+.pad-icon a:active {
+    height: 30px;
+    width: 30px;
+    background-color: #0080ff;
+    border-radius: 100%
+}
+
+.links {
+    padding-top: 50px;
+    width: 50%
+}
+
+#bordering a:active {
+    border: 1px solid #0080ff
+}
+
+@media(min-width:568px) {
+    .container-fluid {
+        margin: 35px 30px;
+        width: 96%;
+        padding-top: 50px;
+        padding-bottom: 50px
+    }
+}
+
+@media(max-width:567px) {
+    .container-fluid {
+        margin: 10px 10px;
+        width: 94%;
+        padding-top: 20px;
+        padding-bottom: 20px
+    }
+
+    .pad {
+        padding-top: 20px
+    }
+}
